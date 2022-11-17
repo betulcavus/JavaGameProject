@@ -45,12 +45,12 @@ public class Game {
             kelimeEkle();
         }else {
             System.out.println("Oyun Bitti");
-            System.out.println("Havva hanimin puani "+puan1);
-            System.out.println("Goksel beyin puani "+puan2);
+            System.out.println("1.oyuncu puani "+puan1);
+            System.out.println("2.oyuncu puani "+puan2);
             if(puan1>puan2){
-                System.out.println("Kazanan Havva hanim");
+                System.out.println("Kazanan 1.oyuncu");
             }else if(puan2>puan1){
-                System.out.println("Kazana Goksel bey");
+                System.out.println("Kazana 2.oyuncu");
             }else
                 System.out.println("Oyun berabere");
         }
